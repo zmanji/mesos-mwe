@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'idea'
+
+mainClassName = "Main"
+
+repositories {
+    jcenter()
+}
+dependencies {
+    compile 'com.google.http-client:google-http-client:1.20.0'
+    compile 'com.google.guava:guava:19.0'
+    compile 'org.apache.mesos:mesos:1.0.0'
+}
+
